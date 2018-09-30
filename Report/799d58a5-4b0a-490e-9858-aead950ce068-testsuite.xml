@@ -1,0 +1,71 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1538222654205" stop="1538222654408">
+  <name>Scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1538222654205" status="passed" stop="1538222654205">
+      <name>test_01.Test.test01</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4644-MainThread"/>
+        <label name="host" value="邵芸芸"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1538222654205" status="passed" stop="1538222654205">
+          <name>执行更新学院操作</name>
+          <title>执行更新学院操作</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1538222654205" status="passed" stop="1538222654205">
+      <name>test_01.Test.test02</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="4644-MainThread"/>
+        <label name="host" value="邵芸芸"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1538222654205" status="passed" stop="1538222654205">
+          <name>执行更新学院操作</name>
+          <title>执行更新学院操作</title>
+          <attachments>
+            <attachment source="a998a4be-86be-435f-aa81-747049e68ceb-attachment.txt" title="断言开始" type="text/plain"/>
+            <attachment source="3fddc21c-e7e4-4710-9cfb-dfe14c39264d-attachment.txt" title="断言结束" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1538222654252" status="failed" stop="1538222654408">
+      <name>test_01.Test.test03</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;Scripts.test_01.Test object at 0x00000000045CE128&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
+    def test03(self):
+        print('test03被执行')
+&gt;       assert 0
+E       assert 0
+
+Scripts\test_01.py:21: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="4644-MainThread"/>
+        <label name="host" value="邵芸芸"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

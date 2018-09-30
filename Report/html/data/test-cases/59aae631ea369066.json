@@ -1,0 +1,85 @@
+{
+  "uid" : "59aae631ea369066",
+  "name" : "test_01.Test.test01",
+  "fullName" : "Scripts.test_01.Test.test01",
+  "historyId" : "b2bf59bf564bfa81bfa573ca8856c02b",
+  "time" : {
+    "start" : 1538222654205,
+    "stop" : 1538222654205,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行更新学院操作",
+      "time" : {
+        "start" : 1538222654205,
+        "stop" : 1538222654205,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "邵芸芸"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "4644-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "Scripts"
+  }, {
+    "name" : "testClass",
+    "value" : "Scripts"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01.Test.test01"
+  }, {
+    "name" : "package",
+    "value" : "Scripts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "59aae631ea369066.json",
+  "parameterValues" : [ ]
+}

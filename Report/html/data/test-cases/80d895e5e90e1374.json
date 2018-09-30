@@ -1,0 +1,66 @@
+{
+  "uid" : "80d895e5e90e1374",
+  "name" : "test_01.Test.test03",
+  "fullName" : "Scripts.test_01.Test.test03",
+  "historyId" : "12f91067aacee06a379ec3cae711e565",
+  "time" : {
+    "start" : 1538222654252,
+    "stop" : 1538222654408,
+    "duration" : 156
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <Scripts.test_01.Test object at 0x00000000045CE128>\n\n    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    def test03(self):\n        print('test03被执行')\n>       assert 0\nE       assert 0\n\nScripts\\test_01.py:21: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "邵芸芸"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "4644-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "Scripts"
+  }, {
+    "name" : "testClass",
+    "value" : "Scripts"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01.Test.test03"
+  }, {
+    "name" : "package",
+    "value" : "Scripts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "80d895e5e90e1374.json",
+  "parameterValues" : [ ]
+}

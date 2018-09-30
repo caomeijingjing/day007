@@ -1,0 +1,97 @@
+{
+  "uid" : "1b872f21cad4c394",
+  "name" : "test_01.Test.test02",
+  "fullName" : "Scripts.test_01.Test.test02",
+  "historyId" : "1db383600dbcef2e51c42c3d32a361fd",
+  "time" : {
+    "start" : 1538222654205,
+    "stop" : 1538222654205,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行更新学院操作",
+      "time" : {
+        "start" : 1538222654205,
+        "stop" : 1538222654205,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d8a14de8ed9f43dd",
+        "name" : "断言开始",
+        "source" : "d8a14de8ed9f43dd.txt",
+        "type" : "text/plain",
+        "size" : 18
+      }, {
+        "uid" : "241fb9d48ea24b27",
+        "name" : "断言结束",
+        "source" : "241fb9d48ea24b27.txt",
+        "type" : "text/plain",
+        "size" : 18
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "邵芸芸"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "thread",
+    "value" : "4644-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "Scripts"
+  }, {
+    "name" : "testClass",
+    "value" : "Scripts"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_01.Test.test02"
+  }, {
+    "name" : "package",
+    "value" : "Scripts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b872f21cad4c394.json",
+  "parameterValues" : [ ]
+}
